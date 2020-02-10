@@ -170,6 +170,7 @@ const generateCoworkerCards = answers => {
     <div class="card" style="width: 18rem;">
     <div class="card-body">
       <h5 class="card-title">${answers.name}</h5>
+      <i class="fas fa-user-tie fa-3x"></i>
       <p class="card-text">Manager</p>
     </div>
     <ul class="list-group list-group-flush">
@@ -183,6 +184,7 @@ const generateCoworkerCards = answers => {
     <div class="card" style="width: 18rem;">
     <div class="card-body">
       <h5 class="card-title">${answers.name}</h5>
+      <i class="fas fa-user-astronaut fa-3x"></i>
       <p class="card-text">Engineer</p>
     </div>
     <ul class="list-group list-group-flush">
@@ -196,6 +198,7 @@ const generateCoworkerCards = answers => {
     <div class="card" style="width: 18rem;">
     <div class="card-body">
       <h5 class="card-title">${answers.name}</h5>
+      <i class="fas fa-user-graduate fa-3x"></i>
       <p class="card-text">Intern</p>
     </div>
     <ul class="list-group list-group-flush">
