@@ -69,7 +69,7 @@ async function coworkerInput() {
     ])
     .then(async choice => {
       if (choice.coworker === "Engineer") {
-          await addEngineer();
+          await engineerInput();
           await coworkerInput();
       }
       else if (choice.coworker === "Intern") {
@@ -82,7 +82,7 @@ async function coworkerInput() {
     });
 }
 
-async function addEngineer() {
+async function engineerInput() {
   await inquirer
     .prompt([
       {
